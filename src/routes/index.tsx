@@ -30,8 +30,8 @@ function Index() {
   return (
     <main className="pb-16">
       <section className="bg-hero">
-        <div className="mx-auto grid max-w-7xl items-center gap-8 px-4 pt-12 sm:px-6 lg:grid-cols-2 lg:px-8 lg:pt-0">
-          <div className="py-4 lg:py-20">
+        <div className="mx-auto grid max-w-7xl items-center gap-6 px-4 pt-10 pb-12 sm:px-6 lg:grid-cols-[46fr_54fr] lg:gap-4 lg:px-8 lg:pt-2 lg:pb-10">
+          <div className="py-2 lg:py-0">
             <span className="inline-flex rounded-full border border-primary/20 bg-background px-3 py-1 text-xs font-semibold text-primary">
               NIRF Rankings • 2017–2025
             </span>
@@ -55,7 +55,7 @@ function Index() {
             alt="Grand Indian institution building with classical columns and NIRF on the facade"
             width={1280}
             height={960}
-            className="w-full self-end mix-blend-multiply [mask-image:radial-gradient(ellipse_at_center,black_55%,transparent_78%)]"
+            className="mx-auto h-auto w-full max-w-2xl object-contain mix-blend-multiply lg:-mt-16 lg:h-[560px] lg:max-w-none lg:scale-110 lg:origin-center [mask-image:radial-gradient(ellipse_at_center,black_55%,transparent_78%)]"
           />
         </div>
       </section>
