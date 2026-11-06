@@ -10,10 +10,10 @@ export const STATS = [
 export const TASKS = [
   { id: "1", name: "Task 1: Time-series and trend analysis", tableauUrl: "https://public.tableau.com/views/Task1_17938616764660/Task1?:showVizHome=no" },
   { id: "2", name: "Task 2: Geospatial and regional analysis", tableauUrl: "https://public.tableau.com/views/TASK2_17939740068790/Dashboard1?:showVizHome=no" },
-  { id: "3", name: "Task 3: Univariate analysis", tableauUrl: "https://public.tableau.com/views/Task3_17939766640070/Task3?:showVizHome=no" },
+  { id: "3", name: "Task 3: Univariate analysis", tableauUrl: "https://public.tableau.com/views/Task3_17939766640070/TASK3?:showVizHome=no" },
   { id: "4", name: "Task 4: Bivariate analysis and correlation", tableauUrl: "https://public.tableau.com/views/TASK4_17939690836930/Dashboard1?:showVizHome=no" },
   { id: "5", name: "Task 5: Multivariate analysis", tableauUrl: "https://public.tableau.com/views/TASK5_17939723385010/Dashboard1?:showVizHome=no" },
   { id: "6", name: "Task 6: Distribution and statistical comparison", tableauUrl: "https://public.tableau.com/views/TASK6_17939724343760/Task6?:showVizHome=no" },
-  { id: "7", name: "Task 7: Ranking transitions and institutional mobility", tableauUrl: "[TASK 7 URL]" },
-  { id: "8", name: "Task 8: Outlier detection and performance gaps", tableauUrl: "[TASK 8 URL]" },
+  { id: "7", name: "Task 7: Ranking transitions and institutional mobility", tableauUrl: "https://public.tableau.com/views/Task7_17939884374260/Task7Q5?:showVizHome=no" },
+  { id: "8", name: "Task 8: Outlier detection and performance gaps", tableauUrl: "https://public.tableau.com/views/Task8_17939904381540/Task8Q5?:showVizHome=no" },
 ] as const;
